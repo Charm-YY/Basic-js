@@ -14,7 +14,7 @@ function handleMouseLeave($element, name){ // 마우스를 떼면 텍스트를 �
     $element.innerHTML = `Bye, ${name}`;
 }
 
-$title.addEventListener('click', ()=> handleTitleClick($title, 'red'));
+$title.addEventListener('click', ()=> handleTitleClick($title, 'green'));
 $title.addEventListener('mouseenter', () => handleMouseEnter($title, 'JavaScript'));
 $title.addEventListener('mouseleave', () => handleMouseLeave($title, 'JavaScript'));
 
